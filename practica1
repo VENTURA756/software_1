@@ -1,0 +1,27 @@
++ crear un grupo llamado casa
+
+groupadd casa 
+
+++++++++++++++++++++++++++++++++++++++++++
+
+grupo casa 
+
+primer usuario 
+adduser candelaria  casa
+
+segundo usuario 
+adduser kimberly casa 
+
+++++++++++++++++++++++++++++++++++++++++++
+
+se comprueba con: cat /etc/group 
+
+++++++++++++++++++++++++++++++++++++++++++
+
+cambiar nombre de grupo de casa a familia 
+
+groupmod -g 1005 -n familia casa 
+
+
+
+
